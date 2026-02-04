@@ -1,0 +1,186 @@
+INSERT INTO bigdataproject.products_by_category JSON '
+{
+  "category_id": 1,
+  "category_name": "Electronics",
+  "description": "Electronic devices and gadgets",
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "Laptop HP Pavilion",
+      "price": 899.99,
+      "stock_quantity": 50,
+      "description": "High performance laptop for professionals"
+    },
+    {
+      "product_id": 2,
+      "product_name": "MacBook Pro M2",
+      "price": 1299.99,
+      "stock_quantity": 25,
+      "description": "Apple MacBook Pro with M2 chip"
+    },
+    {
+      "product_id": 3,
+      "product_name": "Smartphone Samsung Galaxy",
+      "price": 599.99,
+      "stock_quantity": 100,
+      "description": "Latest Samsung Galaxy smartphone"
+    },
+    {
+      "product_id": 4,
+      "product_name": "iPad Air",
+      "price": 449.99,
+      "stock_quantity": 40,
+      "description": "Apple iPad Air with 64GB storage"
+    },
+    {
+      "product_id": 5,
+      "product_name": "Wireless Headphones",
+      "price": 159.99,
+      "stock_quantity": 80,
+      "description": "Noise-canceling wireless headphones"
+    }
+  ]
+}';
+
+INSERT INTO bigdataproject.products_by_category JSON '
+{
+  "category_id": 2,
+  "category_name": "Clothing",
+  "description": "Fashion and apparel",
+  "products": [
+    {
+      "product_id": 6,
+      "product_name": "T-shirt Cotton Blue",
+      "price": 29.99,
+      "stock_quantity": 200,
+      "description": "Comfortable blue cotton t-shirt"
+    },
+    {
+      "product_id": 7,
+      "product_name": "Jeans Denim Classic",
+      "price": 79.99,
+      "stock_quantity": 150,
+      "description": "Classic blue denim jeans"
+    },
+    {
+      "product_id": 8,
+      "product_name": "Dress Summer Floral",
+      "price": 59.99,
+      "stock_quantity": 80,
+      "description": "Beautiful floral summer dress"
+    },
+    {
+      "product_id": 9,
+      "product_name": "Hoodie Gray",
+      "price": 49.99,
+      "stock_quantity": 120,
+      "description": "Comfortable gray hoodie"
+    },
+    {
+      "product_id": 10,
+      "product_name": "Sneakers White",
+      "price": 89.99,
+      "stock_quantity": 75,
+      "description": "Classic white sneakers"
+    }
+  ]
+}';
+
+INSERT INTO bigdataproject.products_by_category JSON '
+{
+  "category_id": 3,
+  "category_name": "Books",
+  "description": "Books and literature",
+  "products": [
+    {
+      "product_id": 11,
+      "product_name": "Python Programming Book",
+      "price": 49.99,
+      "stock_quantity": 60,
+      "description": "Learn Python programming from scratch"
+    },
+    {
+      "product_id": 12,
+      "product_name": "Data Science Handbook",
+      "price": 69.99,
+      "stock_quantity": 40,
+      "description": "Complete guide to data science"
+    },
+    {
+      "product_id": 13,
+      "product_name": "Machine Learning Guide",
+      "price": 79.99,
+      "stock_quantity": 35,
+      "description": "Comprehensive machine learning guide"
+    },
+    {
+      "product_id": 14,
+      "product_name": "Web Development Book",
+      "price": 54.99,
+      "stock_quantity": 45,
+      "description": "Modern web development techniques"
+    }
+  ]
+}';
+
+INSERT INTO bigdataproject.products_by_category JSON '
+{
+  "category_id": 4,
+  "category_name": "Home & Garden",
+  "description": "Home improvement and garden supplies",
+  "products": [
+    {
+      "product_id": 15,
+      "product_name": "Garden Tools Set",
+      "price": 89.99,
+      "stock_quantity": 30,
+      "description": "Complete set of garden tools"
+    },
+    {
+      "product_id": 16,
+      "product_name": "Coffee Maker",
+      "price": 129.99,
+      "stock_quantity": 25,
+      "description": "Automatic drip coffee maker"
+    },
+    {
+      "product_id": 17,
+      "product_name": "Vacuum Cleaner",
+      "price": 199.99,
+      "stock_quantity": 20,
+      "description": "Bagless vacuum cleaner"
+    }
+  ]
+}';
+
+INSERT INTO bigdataproject.products_by_category JSON '
+{
+  "category_id": 5,
+  "category_name": "Sports",
+  "description": "Sports equipment and accessories",
+  "products": [
+    {
+      "product_id": 18,
+      "product_name": "Tennis Racket Pro",
+      "price": 159.99,
+      "stock_quantity": 20,
+      "description": "Professional tennis racket"
+    },
+    {
+      "product_id": 19,
+      "product_name": "Yoga Mat",
+      "price": 39.99,
+      "stock_quantity": 50,
+      "description": "Non-slip yoga mat"
+    },
+    {
+      "product_id": 20,
+      "product_name": "Dumbbells Set",
+      "price": 119.99,
+      "stock_quantity": 15,
+      "description": "Adjustable dumbbells set"
+    }
+  ]
+}';
+
+SELECT * FROM bigdataproject.products_by_category;
