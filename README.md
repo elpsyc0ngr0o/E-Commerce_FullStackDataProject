@@ -7,3 +7,6 @@ Départ d'une BDD PostGreSQL représentant l'activité d'un site d'e-commerce :
 -> Script PySpark pour convertir les données de la BDD Cassandra en fichiers Parquet
 -> Index dans ElasticSearch
 -> Création d'un dashboard Kibana
+
+<img width="1104" height="141" alt="image" src="https://github.com/user-attachments/assets/15f19dda-2d8e-4fdd-9b1d-683f9261ddf6" />
+
